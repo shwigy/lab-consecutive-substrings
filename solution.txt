@@ -1,2 +1,20 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+Pseudocode
+
+###
+function consecutiveSubstrings(string):
+    create an empty list called result
+
+    for each starting index i from 0 to string.length - 1:
+        for each ending index j from i to string.length - 1:
+            grab the substring starting at i and ending at j (inclusive)
+            add that substring to result
+
+    return result
+###
+
+Big O
+- Two nested loops, each scaling with the size of the input (n)
+- Total iterations = n + (n-1) + (n-2)
