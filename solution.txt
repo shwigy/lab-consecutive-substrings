@@ -1,7 +1,14 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
 
-Pseudocode
+[Problem in My Own Words]
+Given a string, find every possible substring that is made of
+characters sitting next to each other (no skipping letters).
+Return them in the order they naturally appear, starting from
+each letter and growing outward to the right.
+
+
+[Pseudocode]
 
 ###
 function consecutiveSubstrings(string):
@@ -15,6 +22,6 @@ function consecutiveSubstrings(string):
     return result
 ###
 
-Big O
+[Big O]
 - Two nested loops, each scaling with the size of the input (n)
 - Total iterations = n + (n-1) + (n-2)
